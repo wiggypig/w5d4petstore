@@ -1,15 +1,13 @@
 import React, {Component} from 'react';
 
 class Animal extends React.Component{
-constructor(props){
-  super(props);
-  this.state={
+state={
     petList:[],
     petName:'',
     petBreed:'',
     petAge:0
-  }
-}
+  };
+
   render(){
     return(
       <div>
@@ -17,6 +15,5 @@ constructor(props){
       </div>
     )
   }
-}
-
+};
 export default Animal
